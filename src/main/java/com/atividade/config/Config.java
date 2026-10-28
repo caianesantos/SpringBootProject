@@ -18,11 +18,11 @@ public class Config implements CommandLineRunner {
     @Override
     public void run(String... args) {
         usuarioRepository.saveAll(List.of(
-            new Usuario(null, "Ana", "Silva", "11111111111"),
-            new Usuario(null, "Bruno", "Santos", "22222222222"),
-            new Usuario(null, "Carla", "Oliveira", "33333333333"),
-            new Usuario(null, "Diego", "Souza", "44444444444"),
-            new Usuario(null, "Elisa", "Costa", "55555555555")
+            new Usuario(null, "Caiane", "Silva", "11111111111"),
+            new Usuario(null, "Pedro", "Santos", "22222222222"),
+            new Usuario(null, "Dessa", "Oliveira", "33333333333"),
+            new Usuario(null, "Guilherme", "Souza", "44444444444"),
+            new Usuario(null, "Flávio", "Costa", "55555555555")
         ));
     }
 }
