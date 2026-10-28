@@ -35,7 +35,7 @@ class AtividadeApplicationTests {
 			Usuario[] usuarios = new ObjectMapper().readValue(response.body(), Usuario[].class);
 			assertThat(usuarios).hasSize(6);
 			assertThat(usuarios).extracting(Usuario::getCpf).containsExactlyInAnyOrder(
-				"11111111111", "22222222222", "33333333333", "44444444444", "55555555555", "00000000000");
+				"33044888211", "11874747555", "07936320991", "90869900122", "38160086156", "00000000000");
 			assertThat(usuarios).allSatisfy(usuario -> {
 				assertThat(usuario.getId()).isNotNull();
 				assertThat(usuario.getNome()).isNotBlank();

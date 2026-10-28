@@ -18,7 +18,7 @@ Com JDK 21 ou superior instalado e JAVA_HOME configurado, execute no PowerShell:
 Acesse <http://localhost:8080/usuarios>. Exemplo de um elemento da resposta:
 
 ```json
-{"id":1,"nome":"Caiane","sobrenome":"Silva","cpf":"11111111111"}
+{"id":1,"nome":"Caiane","sobrenome":"Silva","cpf":"33044888211"}
 ```
 
 Os CPFs sao dados ficticios para demonstracao. O banco fica em memoria: ao encerrar a aplicacao, os dados sao descartados e os cinco registros sao recriados na proxima inicializacao.
